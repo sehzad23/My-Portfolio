@@ -25,7 +25,7 @@ function ContactSection() {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         form.current,
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -35,7 +35,7 @@ function ContactSection() {
               position: "top-right",
               autoClose: 3000,
               theme: "dark",
-            }
+            },
           );
 
           reset();
@@ -51,7 +51,7 @@ function ContactSection() {
           });
 
           setIsLoading(false);
-        }
+        },
       );
   };
 
@@ -73,8 +73,8 @@ function ContactSection() {
         <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] p-[1px]">
           <div className="rounded-[27px] bg-[#0b0b0c]/70 p-8 backdrop-blur-xl">
             <p className="text-[15px] text-white/70">
-              Tell me about your business, goals, and timeline. I’ll reply
-              with a clear plan, scope, and estimate.
+              Tell me about your business, goals, and timeline. I’ll reply with
+              a clear plan, scope, and estimate.
             </p>
 
             <form
@@ -136,7 +136,7 @@ function ContactSection() {
                 </div>
 
                 {/*Contact Number */}
-                 <div>
+                <div>
                   <label className="mb-2 block text-sm text-white/80">
                     Contact Number
                   </label>
@@ -237,7 +237,7 @@ function ContactSection() {
                 </button>
 
                 <a
-                  href="mailto:sehaans87@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=sehaans87@gmail.com"
                   className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-[14px] text-white/85 hover:border-white/30"
                 >
                   <Mail className="h-4 w-4" />
@@ -263,9 +263,7 @@ function ContactSection() {
                 </div>
 
                 <div>
-                  <p className="text-[12px] text-white/55">
-                    {contact.label}
-                  </p>
+                  <p className="text-[12px] text-white/55">{contact.label}</p>
                   <p className="text-[15px]">{contact.value}</p>
                 </div>
               </div>
@@ -275,13 +273,9 @@ function ContactSection() {
           ))}
 
           <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
-            <p className="text-[13px] text-white/60">
-              Typical response time
-            </p>
+            <p className="text-[13px] text-white/60">Typical response time</p>
 
-            <p className="mt-1 text-[15px]">
-              Within 24 hours on weekdays
-            </p>
+            <p className="mt-1 text-[15px]">Within 24 hours on weekdays</p>
 
             <div className="mt-3 flex items-center gap-2 text-[12px] text-white/60">
               <Star className="h-3.5 w-3.5 text-orange-400" />
