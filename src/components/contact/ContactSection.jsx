@@ -238,6 +238,7 @@ function ContactSection() {
 
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=sehaans87@gmail.com"
+                  target="_blank"
                   className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-[14px] text-white/85 hover:border-white/30"
                 >
                   <Mail className="h-4 w-4" />
