@@ -1,6 +1,7 @@
 import Quizify from "../assets/images/quizify.png"
 import Cab from "../assets/images/cab.png"
 import Food from "../assets/images/food.png"
+import NexHolidays from "../assets/images/nexholidays.png"
 const projects = [
   {
     title: "Quizify.io",
@@ -22,6 +23,13 @@ const projects = [
     stack: ["React.js", "Tailwind",],
     image: Food,
     live: "https://cookrecipe.netlify.app/"
+  },
+   {
+    title: "Nex Holidays Tours & Travels",
+    desc: "A professional tours & travel business website developed for my client, Nex Holidays, featuring holiday packages, travel booking services, and a modern responsive user experience.",
+    stack: ["React.js", "Tailwind",],
+    image: NexHolidays,
+    live: "https://visa-nex.vercel.app/"
   },
 ];
 
