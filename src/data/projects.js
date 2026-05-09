@@ -1,7 +1,7 @@
 import Quizify from "../assets/images/quizify.png"
 import Cab from "../assets/images/cab.png"
 import Food from "../assets/images/food.png"
-import NexHolidays from "../assets/images/nexholidays.png"
+import NexHolidays from "../assets/images/NexHolidays.png"
 const projects = [
   {
     title: "Quizify.io",
