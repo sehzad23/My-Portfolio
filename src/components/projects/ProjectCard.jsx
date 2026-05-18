@@ -19,8 +19,8 @@ function ProjectCard({ title, desc, stack, image, live }) {
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-          <div className="absolute left-3 top-3 flex gap-1.5">
-            {stack.slice(0, 3).map((item) => (
+          {/* <div className="absolute left-3 top-3 flex gap-1.5">
+            {stack.slice(0, 5).map((item) => (
               <span
                 key={item}
                 className="rounded-full border border-white/15 bg-black/50 px-2.5 py-1 text-[11px] backdrop-blur"
@@ -28,7 +28,7 @@ function ProjectCard({ title, desc, stack, image, live }) {
                 {item}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
 
         <div className="p-6">
