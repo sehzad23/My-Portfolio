@@ -3,6 +3,7 @@ import Cab from "../assets/images/cab.png"
 import Food from "../assets/images/food.png"
 import NexHolidays from "../assets/images/NexHolidays.png"
 import AI_caption from "../assets/images/AI-caption.png"
+import AI_chatbot from "../assets/images/chatbot.png"
 const projects = [
   {
     title: "Quizify.io",
@@ -38,6 +39,13 @@ const projects = [
     stack: ["React.js", "Tailwind","Node.js", "Express","MongoDB", "Google AI"],
     image: AI_caption,
     live: "https://ai-rady-caption.vercel.app/"
+  },
+   {
+    title: "AI ChatBot – Real-Time Conversational Assistant",
+    desc: "Real-time AI chatbot built with React, Node.js, Express, and Socket.io featuring secure API handling and modern responsive UI.",
+    stack: ["React.js", "Tailwind","Node.js", "Express","MongoDB", "Google AI", "Socket.io"],
+    image: AI_chatbot,
+    live: "https://your-chat-bot.vercel.app/"
   },
 ];
 
