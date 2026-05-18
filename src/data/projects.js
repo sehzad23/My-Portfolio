@@ -2,7 +2,7 @@ import Quizify from "../assets/images/quizify.png"
 import Cab from "../assets/images/cab.png"
 import Food from "../assets/images/food.png"
 import NexHolidays from "../assets/images/NexHolidays.png"
-import AI_caption from "../assets/images/Ai-caption.png"
+import AI_caption from "../assets/images/AI-caption.png"
 import AI_chatbot from "../assets/images/chatbot.png"
 const projects = [
   {
