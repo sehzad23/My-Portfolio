@@ -3,7 +3,7 @@ import Cab from "../assets/images/cab.png"
 import Food from "../assets/images/food.png"
 import NexHolidays from "../assets/images/NexHolidays.png"
 import AI_caption from "../assets/images/ai-caption.png"
-import AI_chatbot from "../assets/images/chatbot.png"
+import AI_chatbot from "../assets/images/ai-chatbot.png"
 const projects = [
   {
     title: "Quizify.io",
