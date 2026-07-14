@@ -4,6 +4,9 @@ import Food from "../assets/images/food.png"
 import NexHolidays from "../assets/images/NexHolidays.png"
 import AI_caption from "../assets/images/Ai-caption.png"
 import AI_chatbot from "../assets/images/ai-chatbot.png"
+import NovaAI from "../assets/images/new-nova-ai.png"
+import Leadify from "../assets/images/leadify.png"
+
 const projects = [
   {
     title: "Quizify.io",
@@ -46,6 +49,20 @@ const projects = [
     stack: ["React.js", "Tailwind","Node.js", "Express","MongoDB", "Google AI", "Socket.io"],
     image: AI_chatbot,
     live: "https://your-chat-bot.vercel.app/"
+  },
+  {
+    title: "Nova AI – AI Chat Assistant",
+    desc: "Built a full-stack AI chat application using React, Node.js, Express.js, MongoDB, Google Gemini AI, JWT Authentication, and Socket.io with real-time messaging, chat management, and responsive UI.",
+    stack: ["React.js", "Tailwind","Node.js", "Express","MongoDB", "Google AI", "Socket.io","Pinecone DB"],
+    image: NovaAI,
+    live: "https://nova-ai-n89u.onrender.com"
+  },
+   {
+    title: "Leadify CRM – Smart Lead Management System",
+    desc: "A full-stack MERN CRM that helps businesses manage leads, track follow-ups, store customer interactions, and connect instantly with one-tap Call & WhatsApp.",
+    stack: ["React.js", "Tailwind","Node.js", "Express","MongoDB", "Brevo"],
+    image: Leadify,
+    live: "https://leadify-crm.vercel.app"
   },
 ];
 
